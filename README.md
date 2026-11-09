@@ -1,131 +1,114 @@
-# Awesome-Team-Collaboration-Integrations-Slack-Github
+# Awesome Team Collaboration Integrations (Slack & GitHub)
 
-# Awesome Team Collaboration Integrations (Slack/GitHub)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 
-> A curated list of top Team Collaboration Integration platforms — both SaaS/Hosted commercial solutions and open-source alternatives for connecting Slack, GitHub, Microsoft Teams, and other workflow tools into a unified collaboration fabric.
+> A curated list of top **Team Collaboration Integrations**, **ChatOps workflows**, **Slack bots**, and **GitHub Actions** — covering both enterprise SaaS platforms and battle-tested open-source alternatives for bridging Slack, GitHub, Microsoft Teams, and ticketing ecosystems into a unified developer collaboration fabric.
+>
 > 🌟 Star this repo if you find it useful! 🌟
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Slack Integrations & Apps](#slack-integrations--apps)
-  - [GitHub Integrations](#github-integrations)
-  - [Microsoft Teams Apps](#microsoft-teams-apps)
-  - [Jira Cloud Integrations](#jira-cloud-integrations)
 - [Open-Source Software](#-open-source-software)
-  - [GitHub Slack Integration (Official)](#github-slack-integration-official)
-  - [Gopherbot](#gopherbot)
-  - [Buzz (Block)](#buzz-block)
-  - [DataGroceries (django-dg)](#datagroceries-django-dg)
-  - [Activepieces](#activepieces)
-  - [slack-github-action](#slack-github-action)
-  - [Botkit](#botkit)
-  - [Dispatch](#dispatch)
-  - [Keybase GitHub Bot](#keybase-github-bot)
 - [Comparison at a Glance](#-comparison-at-a-glance)
 - [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global team collaboration and workplace integration software market is estimated at **$31.8 billion** and is projected to expand beyond **$65 billion by 2030** (CAGR ~13.5%). The sector exhibits **moderate-to-high market concentration** among mega-cap ecosystem gatekeepers (Microsoft 365/Teams, Salesforce/Slack, and Atlassian/Jira) who capture majority workflow share via bundle dominance, while sustaining a vibrant, highly innovative long-tail ecosystem of specialized ChatOps, AI agents, workflow orchestrators, and developer-first integration engines.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Team Collaboration Integration platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Team Collaboration and Integration platforms. The table below compares key enterprise players ranked by company valuation/market capitalization in descending order.
 
-### Slack Integrations & Apps
-**Type:** App directory and platform for team collaboration integrations  
-Slack provides a vast App Directory with thousands of integrations, plus a robust platform (Bolt, Web API, Events API) for building custom apps. The official GitHub integration for Slack is maintained by GitHub and brings pull request updates, issue mentions, and CI status into Slack channels [citation:15]. For teams wanting to bridge Slack with external services, Slack's platform is the foundation upon which most third-party integrations are built.
-
-### GitHub Integrations
-**Type:** Platform for code collaboration integrations  
-GitHub provides GitHub Apps (with granular permissions and webhooks), Actions (for CI/CD workflows), and a REST/GraphQL API for building integrations. The official Slack integration is maintained by GitHub [citation:15]. GitHub's ecosystem is the primary integration target for most team collaboration tools, with thousands of third-party apps connecting repositories, pull requests, and issues to chat and project management platforms.
-
-### Microsoft Teams Apps
-**Type:** App platform within Microsoft 365  
-Microsoft Teams provides an app platform with tabs, bots, messaging extensions, and webhooks for building integrations. The official GitHub integration for Teams is maintained by GitHub, bringing repository activity into Teams channels [citation:15]. Teams is the natural integration hub for organizations already standardized on Microsoft 365, with deep native integrations for Office, SharePoint, and Azure DevOps.
-
-### Jira Cloud Integrations
-**Type:** Atlassian ecosystem integration platform  
-Jira Cloud provides native integrations with Slack, Microsoft Teams, and GitHub through Atlassian's marketplace and built-in apps. The Jira Cloud for Slack app allows creating and transitioning issues directly from Slack, while the GitHub for Jira integration links commits and pull requests to Jira issues. These integrations are the standard for teams using Atlassian's ecosystem.
+| Platform | Company Valuation / Revenue | Starting Tier Price | Free Tier Limits / Free Trial | Integration Ecosystem | Best For |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Microsoft Teams Apps** | **$3.1+ Trillion** Market Cap (Microsoft) / $245B+ Annual Revenue | **$4.00/user/month** (Teams Essentials billed annually) | **Free Forever Plan**: Up to 100 participants per meeting, 60 min group meeting duration, 5 GB cloud storage per user, and 1:1 chat/calls. | Deep Microsoft 365, Azure DevOps, SharePoint, and official GitHub App integration. | Organizations standardized on Microsoft 365 wanting seamless enterprise communication and IT governance. |
+| **GitHub Integrations** | **$100+ Billion** Subsidiary Valuation (Microsoft) / $1B+ ARR | **$4.00/user/month** (GitHub Team billed annually, or $4.40/month) | **Free Forever Plan**: Unlimited public/private repositories, 2,000 CI/CD Actions minutes/month, 500 MB GitHub Packages storage, and community support. | GitHub Marketplace, native Webhooks, GitHub Apps, REST/GraphQL APIs, and official Slack App. | Engineering teams seeking native CI/CD workflows, issue automation, and code-review bridge alerts. |
+| **Slack Integrations & Apps** | **$27.7 Billion** Acquisition Valuation (Salesforce) / $1.5B+ Segment Revenue | **$7.25/user/month** (Slack Pro billed annually, or $8.75/month) | **Free Forever Plan**: 90-day searchable message and file history, 10 app integrations max, and 1:1 audio/video huddles. | 2,600+ Slack App Directory integrations, Bolt SDK (Node/Python/Java), Webhooks, and Events API. | Cross-functional teams requiring real-time ChatOps, automated alerts, and rich interactive message cards. |
+| **Jira Cloud Integrations** | **$45+ Billion** Market Cap (Atlassian) / $4.3B+ Annual Revenue | **$7.75/user/month** (Jira Standard billed annually, or $8.60/month) | **Free Forever Plan**: Up to 10 users, 2 GB file storage, unlimited project boards, and standard Atlassian automation (100 rules/month). | Atlassian Marketplace (3,000+ apps), bi-directional Slack bot, GitHub for Jira, and Bitbucket sync. | Agile software delivery teams tracking issues, sprints, and pull request statuses directly inside chat. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Team Collaboration Integration tools. The open-source ecosystem spans **official integration bridges**, **ChatOps automation platforms**, **AI-native workspaces**, and **workflow automation engines**.
+Self-hosted and community-driven Team Collaboration Integration tools, ChatOps frameworks, and automation bridges. Ranked in descending order by GitHub stargazers.
 
-### GitHub Slack Integration (Official)
-**Stack:** TypeScript / GitHub Actions | **License:** MIT  
-The official GitHub Slack integration repository (`integrations/slack`) is maintained by GitHub and is fully open-source [citation:15]. It brings pull request updates, issue mentions, and CI status into Slack channels. The repository has 3,016+ stars and is actively maintained. This is the canonical way to connect GitHub activity to Slack without relying on third-party services.
-
-### Gopherbot
-**Stack:** Go | **License:** Open Source (per project)  
-Gopherbot is a ChatOps automation platform that runs as a Linux process, connecting to Slack (and a Terminal connector) to respond to CLI-like commands [citation:2]. Scripts in Bash, Ruby, Python, or Go can provision resources, run reports, deploy software, or interact with CI/CD. Features include GitOps-style self-deployment, threaded conversation support, hidden Slack slash commands, encrypted secrets, and built-in Google Authenticator TOTP. It is designed for DevOps engineers wanting to bring command-line power into team chat.
-
-### Buzz (Block)
-**Stack:** Rust / Nostr Protocol / PostgreSQL / Redis | **License:** Apache 2.0  
-Buzz is an open-source workspace from Block that unifies team chat, Git repositories, and AI agent collaboration in a single self-hosted relay [citation:4][citation:9][citation:13]. Its defining feature is cryptographic identity for both humans and AI agents using Nostr keys: every message, Git event, and agent action is a signed event, creating a verifiable audit trail [citation:13]. Agents (Claude Code, Codex, Goose) can join channels, open repositories, submit patches, and review code with their own scoped identities [citation:4]. The platform aims to combine Slack, GitHub, and CI/CD features. **Important:** The project is very new (July 2026); mobile apps and push notifications are still under development [citation:4].
-
-### DataGroceries (django-dg)
-**Stack:** Python / Django | **License:** MIT  
-DataGroceries provides open-source Django apps (a Kanban board and a wiki) that people and AI agents work on together [citation:7]. The board includes @-mentions and watchers with notifications via email or Slack (Slack takes priority), and tickets link to GitHub commits, branches, and pull requests that mention their key. Agents reach the apps through an MCP endpoint and work as the person who connected them, with every change attributed in history. This is a practical way to add collaboration and AI agent access to an existing Django project without a heavyweight platform.
-
-### Activepieces
-**Stack:** TypeScript | **License:** MIT  
-Activepieces is a genuinely MIT-licensed open-source automation platform positioned as a more approachable alternative to Zapier and n8n [citation:6][citation:10]. It provides a visual flow builder with branches, loops, and conditional logic, 500+ pre-built pieces (including Slack, GitHub, Google Sheets, and OpenAI), AI agents and AI Copilot built into the builder, human-in-the-loop approval steps, and MCP server support [citation:10]. For team collaboration integrations, Activepieces can bridge Slack, GitHub, and other tools without vendor lock-in or per-task pricing.
-
-### slack-github-action
-**Stack:** JavaScript / GitHub Actions | **License:** Open Source (per project)  
-slack-github-action is a GitHub Action for sending data to Slack and running Slack CLI commands directly from GitHub workflows [citation:1][citation:11]. With 1.3k+ stars, it is the practical way to notify Slack channels about build results, deployments, or any workflow event without writing custom integration code. It is part of the broader ecosystem of Slack integration tools for developer workflows.
-
-### Botkit
-**Stack:** TypeScript | **License:** MIT  
-Botkit is an open-source developer tool for building chat bots, apps, and custom integrations for major messaging platforms [citation:11]. With 11.6k+ stars, it provides a framework for creating Slack bots that can respond to events, manage conversations, and integrate with external services. It is the foundation for many custom Slack integrations that go beyond simple webhooks.
-
-### Dispatch
-**Stack:** Python | **License:** Open Source (per project)  
-Dispatch is an incident management platform that orchestrates security incidents by integrating with Slack, Jira, and other tools [citation:11]. With 6.5k+ stars, it is a practical example of a Slack integration built for a specific workflow (incident response) rather than general-purpose automation. It demonstrates how Slack can serve as the central collaboration layer for specialized team processes.
-
-### Keybase GitHub Bot
-**Stack:** Go | **License:** Open Source (per project)  
-Keybase's GitHub bot notifies a Keybase chat channel when events happen on a GitHub repository (issues, pull requests, commits, etc.) [citation:12]. It requires a running MySQL database and a GitHub App for authentication. While Keybase is a niche chat platform, this bot is a useful reference for building GitHub-to-chat notification integrations with proper webhook verification and OAuth.
+| Project | Stars | Stack | License | Description & Integration Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| [**n8n**](https://github.com/n8n-io/n8n/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | TypeScript / Node.js | Fair-code (Sustainable Use License) | Fair-code workflow automation tool with extensive multi-step native nodes for bi-directional Slack and GitHub event triggers, webhooks, and AI agent nodes. |
+| [**Huginn**](https://github.com/huginn/huginn/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers) | Ruby / Rails | MIT | Hackable agent framework for building autonomous event-driven pipelines that watch GitHub repositories and dispatch interactive events to Slack channels. |
+| [**Rocket.Chat**](https://github.com/RocketChat/Rocket.Chat/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers) | TypeScript / Node.js | MIT | Privacy-first open-source team communications hub featuring native incoming/outgoing webhooks and direct GitHub and Slack bridge integration apps. |
+| [**Mattermost**](https://github.com/mattermost/mattermost/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers) | Go / React | AGPLv3 / Apache 2.0 | High-trust self-hosted collaboration platform with a rich plugin architecture, including deep bi-directional GitHub integration, slash commands, and Slack compatibility. |
+| [**Chatwoot**](https://github.com/chatwoot/chatwoot/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | Ruby on Rails / Vue | MIT | Open-source customer engagement and conversational support suite with native Slack conversation mirroring and webhook-based GitHub issue dispatchers. |
+| [**Block Buzz**](https://github.com/block/buzz/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/block/buzz?style=social&color=white)](https://github.com/block/buzz/stargazers) | Rust / Nostr / PostgreSQL | Apache-2.0 | Cryptographically verifiable developer workspace from Block merging real-time team chat, decentralized Git repositories, and autonomous AI agents. |
+| [**Zulip**](https://github.com/zulip/zulip/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers) | Python / Django / TypeScript | Apache-2.0 | Threaded stream-based team collaboration platform with 100+ native integrations, including granular GitHub pull request notifications and Slack migration bridges. |
+| [**Activepieces**](https://github.com/activepieces/activepieces/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) | TypeScript | MIT | No-code/low-code workflow engine with 500+ pre-built integrations, visual branch/loop builder, and official pieces for Slack alerts, GitHub issue synching, and AI agents. |
+| [**Leantime**](https://github.com/Leantime/leantime/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/Leantime/leantime/stargazers) | PHP / JavaScript | AGPLv3 | Strategic open-source project management platform tailored for cross-functional teams, featuring Slack notifications, webhook pipelines, and GitHub sync plugins. |
+| [**Botkit**](https://github.com/howdyai/botkit/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/howdyai/botkit?style=social&color=white)](https://github.com/howdyai/botkit/stargazers) | TypeScript / Node.js | MIT | Battle-tested developer framework and conversational SDK for constructing event-driven bots, conversational workflows, and custom Slack-to-GitHub ChatOps apps. |
+| [**Dispatch**](https://github.com/Netflix/dispatch/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/Netflix/dispatch?style=social&color=white)](https://github.com/Netflix/dispatch/stargazers) | Python / FastAPI / Vue | Apache-2.0 | Security incident management orchestrator by Netflix that spins up dedicated Slack incident rooms, assigns tasks, and links relevant GitHub commits and Jira tickets. |
+| [**Vikunja**](https://github.com/go-vikunja/vikunja/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/go-vikunja/vikunja/stargazers) | Go / Vue.js | AGPLv3 | Self-hostable, clean collaborative to-do and task management suite with REST APIs and webhook integrations for GitHub commits and Slack notifications. |
+| [**GitHub Slack Integration**](https://github.com/integrations/slack/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/integrations/slack?style=social&color=white)](https://github.com/integrations/slack/stargazers) | TypeScript | MIT | The official bi-directional GitHub integration for Slack by GitHub. Subscribe to repositories, review pull requests, and close issues with slash commands. |
+| [**Bolt for JavaScript**](https://github.com/slackapi/bolt-js/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/slackapi/bolt-js?style=social&color=white)](https://github.com/slackapi/bolt-js/stargazers) | TypeScript / JavaScript | MIT | Official Slack framework to quickly assemble modern Slack apps and ChatOps workflows responding to events, slash commands, shortcuts, and interactive blocks. |
+| [**slack-github-action**](https://github.com/slackapi/slack-github-action/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/slackapi/slack-github-action?style=social&color=white)](https://github.com/slackapi/slack-github-action/stargazers) | JavaScript / GitHub Actions | MIT | Official GitHub Action from Slack for sending custom rich messages, Block Kit cards, and deployment telemetry straight to Slack channels. |
+| [**Bolt for Python**](https://github.com/slackapi/bolt-python/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/slackapi/bolt-python?style=social&color=white)](https://github.com/slackapi/bolt-python/stargazers) | Python | MIT | Official Python framework for building Slack apps, handling Slack event payloads, and executing automated GitHub API actions in Python services. |
+| [**Gopherbot**](https://github.com/lnxjedi/gopherbot/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/lnxjedi/gopherbot?style=social&color=white)](https://github.com/lnxjedi/gopherbot/stargazers) | Go | Apache-2.0 | Extensible ChatOps robot engine designed for DevOps engineers; automates command-line workflows, deployment triggers, and multi-protocol Slack conversations. |
+| [**Keybase GitHub Bot**](https://github.com/wiz/keybase-github-bot/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/wiz/keybase-github-bot?style=social&color=white)](https://github.com/wiz/keybase-github-bot/stargazers) | Go | MIT | Reference implementation bot connecting GitHub event webhooks (commits, pull requests, issues) to secure team channels. |
+| [**DataGroceries (django-dg)**](https://github.com/datagroceries/django-dg/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/datagroceries/django-dg?style=social&color=white)](https://github.com/datagroceries/django-dg/stargazers) | Python / Django | MIT | Modular Django Kanban board and wiki apps integrating Slack @-mentions, GitHub commit/PR linking, and Model Context Protocol (MCP) agent endpoints. |
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Slack | GitHub | AI Agents | Self-Hosted | Best For |
-|----------|---------|-------|-------|--------|-----------|-------------|----------|
-| **GitHub Slack (Official)** | MIT | TypeScript | ✅ | ✅ | ❌ | ✅ | Canonical GitHub→Slack notifications |
-| **Gopherbot** | Open Source | Go | ✅ | (Via scripts) | ❌ | ✅ | ChatOps command automation |
-| **Buzz (Block)** | Apache 2.0 | Rust/Nostr | (Chat) | ✅ Git forge | ✅ First-class | ✅ | Unified chat + Git + AI agents |
-| **DataGroceries** | MIT | Python/Django | ✅ | ✅ | ✅ MCP | ✅ | Django board + wiki + agent access |
-| **Activepieces** | MIT | TypeScript | ✅ | ✅ | ✅ AI Copilot | ✅ | Visual automation with 500+ pieces |
-| **slack-github-action** | Open Source | JavaScript | ✅ | ✅ | ❌ | ✅ (Actions) | CI/CD notifications to Slack |
-| **Botkit** | MIT | TypeScript | ✅ | (Via code) | ❌ | ✅ | Custom Slack bot development |
-| **Dispatch** | Open Source | Python | ✅ | ✅ (Jira) | ❌ | ✅ | Security incident orchestration |
-| **Keybase GitHub Bot** | Open Source | Go | (Keybase) | ✅ | ❌ | ✅ | Reference for GitHub→chat bots |
+| Software / Tool | Type | License | Primary Language | Slack Support | GitHub Support | Primary Focus |
+| :--- | :--- | :--- | :--- | :---: | :---: | :--- |
+| **n8n** | Self-Hosted / Cloud | Sustainable Use | TypeScript | ✅ | ✅ | Multi-system visual workflow & event automation |
+| **Huginn** | Self-Hosted | MIT | Ruby | ✅ | ✅ | Autonomous agent monitoring & event dispatch |
+| **Rocket.Chat** | Self-Hosted / Cloud | MIT | TypeScript | ✅ | ✅ | Team collaboration with full webhook extensibility |
+| **Mattermost** | Self-Hosted / Cloud | AGPLv3 / Apache 2.0 | Go | ✅ | ✅ | Secure developer chat with bi-directional GitHub integration |
+| **Chatwoot** | Self-Hosted / Cloud | MIT | Ruby | ✅ | ✅ | Omnichannel customer & team conversations |
+| **Block Buzz** | Self-Hosted | Apache-2.0 | Rust | ❌ (Own Chat) | ✅ | Cryptographic chat, Git repository & AI workspace |
+| **Zulip** | Self-Hosted / Cloud | Apache-2.0 | Python | ✅ | ✅ | Real-time topic-threaded team messaging |
+| **Activepieces** | Self-Hosted / Cloud | MIT | TypeScript | ✅ | ✅ | Open-source Zapier alternative with 500+ connectors |
+| **Leantime** | Self-Hosted / Cloud | AGPLv3 | PHP | ✅ | ✅ | Cross-functional project & ticket management |
+| **Botkit** | Framework | MIT | TypeScript | ✅ | (Via API) | Custom Slack chatbot & conversation builder |
+| **Dispatch** | Self-Hosted | Apache-2.0 | Python | ✅ | ✅ | Security incident orchestration & Slack war-rooms |
+| **Vikunja** | Self-Hosted / Cloud | AGPLv3 | Go | ✅ | ✅ | Self-hosted collaborative task and project management |
+| **GitHub Slack (Official)**| Integration Bridge | MIT | TypeScript | ✅ | ✅ | Canonical GitHub notifications & slash commands in Slack |
+| **Bolt for JavaScript** | Framework | MIT | TypeScript | ✅ | (Via API) | Official SDK for interactive Slack application development |
+| **slack-github-action** | GitHub Action | MIT | JavaScript | ✅ | ✅ | Direct deployment & CI/CD status reporting to Slack |
+| **Bolt for Python** | Framework | MIT | Python | ✅ | (Via API) | Official Python framework for interactive Slack apps |
+| **Gopherbot** | ChatOps Engine | Apache-2.0 | Go | ✅ | (Via Scripts) | DevOps CLI automation & scheduled tasks via chat |
+| **Keybase GitHub Bot** | Bot | MIT | Go | (Keybase) | ✅ | Webhook-driven repository notification service |
+| **DataGroceries** | App Modules | MIT | Python | ✅ | ✅ | Django board, wiki, and MCP AI agent collaboration |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Team Collaboration Integration tool that should be listed here, please open a pull request with:
+Contributions are always welcome! To suggest an open-source project, integration library, or update existing details:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits** between official integration bridges (GitHub Slack integration), ChatOps automation (Gopherbot), AI-native workspaces (Buzz), and general-purpose workflow engines (Activepieces). For simple GitHub-to-Slack notifications, the official integration is the standard. For teams wanting to consolidate chat, Git, and AI agents under one self-hosted roof, Buzz is the most ambitious effort, though it is still very new.
+1. Fork this repository.
+2. Add your suggested entry to the appropriate section in alphabetical or sorted order.
+3. Ensure the project is active, well-documented, and adheres to genuine open-source or commercial guidelines.
+4. Submit a Pull Request with a clear description of the addition.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository and curated list are released under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain dedication. Listed products, logos, and projects retain their respective copyrights, trademarks, and licenses.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+⭐ **If this repository helped streamline your team's ChatOps and developer workflows, consider starring it!** ⭐
