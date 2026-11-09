@@ -1,37 +1,47 @@
-# Awesome Team Collaboration Integrations (Slack & GitHub)
+# Awesome Team Collaboration Integrations (Slack & GitHub) 🚀
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Team Collaboration Integrations (Slack &amp; GitHub) Banner" width="100%" />
+</p>
 
-> A curated list of top **Team Collaboration Integrations**, **ChatOps workflows**, **Slack bots**, and **GitHub Actions** — covering both enterprise SaaS platforms and battle-tested open-source alternatives for bridging Slack, GitHub, Microsoft Teams, and ticketing ecosystems into a unified developer collaboration fabric.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://www.trackawesomelist.com/"><img src="https://www.trackawesomelist.com/badge.svg" alt="Track Awesome List" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🌟 A curated list of top **Team Collaboration Integrations**, **ChatOps workflows** ⚡, **Slack bots** 🤖, and **GitHub Actions** 🐙 — covering both enterprise SaaS platforms 🏢 and battle-tested open-source alternatives 💻 for bridging Slack, GitHub, Microsoft Teams, and ticketing ecosystems into a unified developer collaboration fabric. 🌟
 >
-> 🌟 Star this repo if you find it useful! 🌟
+> ⭐ Star this repo if you find it useful! ⭐
 
 ---
 
 ## 📋 Table of Contents
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-- [Open-Source Software](#-open-source-software)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source Software](#-open-source-software)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [📈 Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
 ## 📈 Sector Overview & Market Dynamics
 
-The global team collaboration and workplace integration software market is estimated at **$31.8 billion** and is projected to expand beyond **$65 billion by 2030** (CAGR ~13.5%). The sector exhibits **moderate-to-high market concentration** among mega-cap ecosystem gatekeepers (Microsoft 365/Teams, Salesforce/Slack, and Atlassian/Jira) who capture majority workflow share via bundle dominance, while sustaining a vibrant, highly innovative long-tail ecosystem of specialized ChatOps, AI agents, workflow orchestrators, and developer-first integration engines.
+The global team collaboration and workplace integration software market is estimated at **$31.8 billion** 💰 and is projected to expand beyond **$65 billion by 2030** 📊 (CAGR ~13.5%). The sector exhibits **moderate-to-high market concentration** 🏛️ among mega-cap ecosystem gatekeepers (Microsoft 365/Teams, Salesforce/Slack, and Atlassian/Jira) who capture majority workflow share via bundle dominance, while sustaining a vibrant, highly innovative long-tail ecosystem of specialized ChatOps, AI agents, workflow orchestrators, and developer-first integration engines. 🚀
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 🏢 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Team Collaboration and Integration platforms. The table below compares key enterprise players ranked by company valuation/market capitalization in descending order.
+Commercial, cloud-hosted Team Collaboration and Integration platforms. The table below compares key enterprise players ranked by company valuation/market capitalization in descending order. 🏆
 
-| Platform | Company Valuation / Revenue | Starting Tier Price | Free Tier Limits / Free Trial | Integration Ecosystem | Best For |
+| Platform 🏢 | Company Valuation / Revenue 💎 | Starting Tier Price 🏷️ | Free Tier Limits / Free Trial 🎁 | Integration Ecosystem 🔌 | Best For 🎯 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Microsoft Teams Apps** | **$3.1+ Trillion** Market Cap (Microsoft) / $245B+ Annual Revenue | **$4.00/user/month** (Teams Essentials billed annually) | **Free Forever Plan**: Up to 100 participants per meeting, 60 min group meeting duration, 5 GB cloud storage per user, and 1:1 chat/calls. | Deep Microsoft 365, Azure DevOps, SharePoint, and official GitHub App integration. | Organizations standardized on Microsoft 365 wanting seamless enterprise communication and IT governance. |
 | **GitHub Integrations** | **$100+ Billion** Subsidiary Valuation (Microsoft) / $1B+ ARR | **$4.00/user/month** (GitHub Team billed annually, or $4.40/month) | **Free Forever Plan**: Unlimited public/private repositories, 2,000 CI/CD Actions minutes/month, 500 MB GitHub Packages storage, and community support. | GitHub Marketplace, native Webhooks, GitHub Apps, REST/GraphQL APIs, and official Slack App. | Engineering teams seeking native CI/CD workflows, issue automation, and code-review bridge alerts. |
@@ -40,11 +50,11 @@ Commercial, cloud-hosted Team Collaboration and Integration platforms. The table
 
 ---
 
-## 🟩 Open-Source Software
+## 💻 Open-Source Software
 
-Self-hosted and community-driven Team Collaboration Integration tools, ChatOps frameworks, and automation bridges. Ranked in descending order by GitHub stargazers.
+Self-hosted and community-driven Team Collaboration Integration tools, ChatOps frameworks, and automation bridges. Ranked in descending order by GitHub stargazers. ⭐
 
-| Project | Stars | Stack | License | Description & Integration Highlights |
+| Project 📦 | Stars 🌟 | Stack 🛠️ | License 📜 | Description & Integration Highlights 💡 |
 | :--- | :--- | :--- | :--- | :--- |
 | [**n8n**](https://github.com/n8n-io/n8n/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | TypeScript / Node.js | Fair-code (Sustainable Use License) | Fair-code workflow automation tool with extensive multi-step native nodes for bi-directional Slack and GitHub event triggers, webhooks, and AI agent nodes. |
 | [**Huginn**](https://github.com/huginn/huginn/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers) | Ruby / Rails | MIT | Hackable agent framework for building autonomous event-driven pipelines that watch GitHub repositories and dispatch interactive events to Slack channels. |
@@ -59,18 +69,18 @@ Self-hosted and community-driven Team Collaboration Integration tools, ChatOps f
 | [**Dispatch**](https://github.com/Netflix/dispatch/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/Netflix/dispatch?style=social&color=white)](https://github.com/Netflix/dispatch/stargazers) | Python / FastAPI / Vue | Apache-2.0 | Security incident management orchestrator by Netflix that spins up dedicated Slack incident rooms, assigns tasks, and links relevant GitHub commits and Jira tickets. |
 | [**Vikunja**](https://github.com/go-vikunja/vikunja/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/go-vikunja/vikunja/stargazers) | Go / Vue.js | AGPLv3 | Self-hostable, clean collaborative to-do and task management suite with REST APIs and webhook integrations for GitHub commits and Slack notifications. |
 | [**GitHub Slack Integration**](https://github.com/integrations/slack/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/integrations/slack?style=social&color=white)](https://github.com/integrations/slack/stargazers) | TypeScript | MIT | The official bi-directional GitHub integration for Slack by GitHub. Subscribe to repositories, review pull requests, and close issues with slash commands. |
-| [**Bolt for JavaScript**](https://github.com/slackapi/bolt-js/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/slackapi/bolt-js?style=social&color=white)](https://github.com/slackapi/bolt-js/stargazers) | TypeScript / JavaScript | MIT | Official Slack framework to quickly assemble modern Slack apps and ChatOps workflows responding to events, slash commands, shortcuts, and interactive blocks. |
+| [**Bolt for JavaScript**](https://github.com/slackapi/bolt-js/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/slackapi/bolt-js/stargazers) | TypeScript / JavaScript | MIT | Official Slack framework to quickly assemble modern Slack apps and ChatOps workflows responding to events, slash commands, shortcuts, and interactive blocks. |
 | [**slack-github-action**](https://github.com/slackapi/slack-github-action/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/slackapi/slack-github-action?style=social&color=white)](https://github.com/slackapi/slack-github-action/stargazers) | JavaScript / GitHub Actions | MIT | Official GitHub Action from Slack for sending custom rich messages, Block Kit cards, and deployment telemetry straight to Slack channels. |
-| [**Bolt for Python**](https://github.com/slackapi/bolt-python/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/slackapi/bolt-python?style=social&color=white)](https://github.com/slackapi/bolt-python/stargazers) | Python | MIT | Official Python framework for building Slack apps, handling Slack event payloads, and executing automated GitHub API actions in Python services. |
+| [**Bolt for Python**](https://github.com/slackapi/bolt-python/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/slackapi/bolt-python/stargazers) | Python | MIT | Official Python framework for building Slack apps, handling Slack event payloads, and executing automated GitHub API actions in Python services. |
 | [**Gopherbot**](https://github.com/lnxjedi/gopherbot/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/lnxjedi/gopherbot?style=social&color=white)](https://github.com/lnxjedi/gopherbot/stargazers) | Go | Apache-2.0 | Extensible ChatOps robot engine designed for DevOps engineers; automates command-line workflows, deployment triggers, and multi-protocol Slack conversations. |
 | [**Keybase GitHub Bot**](https://github.com/wiz/keybase-github-bot/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/wiz/keybase-github-bot?style=social&color=white)](https://github.com/wiz/keybase-github-bot/stargazers) | Go | MIT | Reference implementation bot connecting GitHub event webhooks (commits, pull requests, issues) to secure team channels. |
-| [**DataGroceries (django-dg)**](https://github.com/datagroceries/django-dg/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/datagroceries/django-dg?style=social&color=white)](https://github.com/datagroceries/django-dg/stargazers) | Python / Django | MIT | Modular Django Kanban board and wiki apps integrating Slack @-mentions, GitHub commit/PR linking, and Model Context Protocol (MCP) agent endpoints. |
+| [**DataGroceries (django-dg)**](https://github.com/datagroceries/django-dg/stargazers) | [![GitHub stars](https://img.shields.io/github/stars/datagroceries/django-dg/stargazers) | Python / Django | MIT | Modular Django Kanban board and wiki apps integrating Slack @-mentions, GitHub commit/PR linking, and Model Context Protocol (MCP) AI agent endpoints. |
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software / Tool | Type | License | Primary Language | Slack Support | GitHub Support | Primary Focus |
+| Software / Tool 🛠️ | Type 🏷️ | License 📜 | Primary Language 💻 | Slack Support 💬 | GitHub Support 🐙 | Primary Focus 🎯 |
 | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
 | **n8n** | Self-Hosted / Cloud | Sustainable Use | TypeScript | ✅ | ✅ | Multi-system visual workflow & event automation |
 | **Huginn** | Self-Hosted | MIT | Ruby | ✅ | ✅ | Autonomous agent monitoring & event dispatch |
@@ -94,20 +104,37 @@ Self-hosted and community-driven Team Collaboration Integration tools, ChatOps f
 
 ---
 
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Team-Collaboration-Integrations-Slack-Github&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Team-Collaboration-Integrations-Slack-Github&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you so much for exploring this curated repository! 🙏 If you find this list helpful:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork the repo** to contribute new integrations, bot frameworks, or workflows.
+- 📢 **Share with colleagues, DevOps teams, and developer communities**.
+- ☕ **Buy a coffee & sponsor ongoing maintenance:** Support development directly via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)! Every contribution is deeply appreciated.
+
+---
+
 ## 🤝 Contributing
 
-Contributions are always welcome! To suggest an open-source project, integration library, or update existing details:
+Contributions are always welcome! 🎉 To suggest an open-source project, integration library, or update existing details:
 
-1. Fork this repository.
-2. Add your suggested entry to the appropriate section in alphabetical or sorted order.
-3. Ensure the project is active, well-documented, and adheres to genuine open-source or commercial guidelines.
-4. Submit a Pull Request with a clear description of the addition.
+1. Fork this repository. 🍴
+2. Add your suggested entry to the appropriate section in alphabetical or sorted order. ✍️
+3. Ensure the project is active, well-documented, and adheres to genuine open-source or commercial guidelines. ✅
+4. Submit a Pull Request with a clear description of the addition. 🚀
 
 ---
 
 ## 📄 License
 
-This repository and curated list are released under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain dedication. Listed products, logos, and projects retain their respective copyrights, trademarks, and licenses.
+This repository and curated list are released under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain dedication. Listed products, logos, and projects retain their respective copyrights, trademarks, and licenses. ⚖️
 
 ---
 
